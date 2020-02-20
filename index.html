@@ -6,6 +6,7 @@
     <title>Makita</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -99,7 +100,47 @@
 
     <!-- main section -->
     <main>
+        <div class="container">
+            <div class="row">
 
+                <div class="col-3 main-products">
+                    <div class="main-products-block">
+                        <button type="button" id="btn-products"><i class="fas fa-bars"></i> Каталог товаров</button>
+                        <div class="main-products-block-content">
+                            <ul class="main-products-block-content-ul"> 
+                                <li><a href="#">Аккумуляторный инструмент</a></li>
+                                <li><a href="#">Пневматический инструмент</a></li>
+                                <li><a href="#">Болгарки</a></li>
+                                <li><a href="#">Вентиляторы</a></li>
+                                <li><a href="#">Воздуховики</a></li>
+                                <li><a href="#">Газонокосилки</a></li>
+                                <li><a href="#">Гайковерты</a></li>
+                                <li><a href="#">Генераторы</a></li>
+                                <li><a href="#">Дрели</a></li>
+                                <li><a href="#">Косы</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-9 main-bar-slider">
+                    <h2>Акция</h2>
+                    <!-- Slider main container -->
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img class="img-fluid" src="/img/main/swiper-action/1slides.png" alt=""></div>
+                            <div class="swiper-slide"><img class="img-fluid" src="/img/main/swiper-action/2slides.png" alt=""></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="col-3 main-yandex">
+                    <img class="img-fluid" src="/img/main/yandex.png" alt="">
+                </div>
+
+            </div>
+        </div>
     </main>
 
     <!-- navigation section on the footer -->
@@ -162,6 +203,7 @@
         </div>
     </footer>
 
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <script src="/js/jquery-3.4.1.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/script.js"></script>
