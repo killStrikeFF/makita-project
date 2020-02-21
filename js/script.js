@@ -48,7 +48,7 @@ window.addEventListener('DOMContentLoaded', () => {
             tabContent[b].classList.add('show');
         }
     }
-
+    
 
     info.addEventListener('click', function(event) {
         let target = event.target;
@@ -64,10 +64,10 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+
+    /* slider products */
     let widthScreen = document.documentElement.clientWidth,
         colOfslides = 4;
-
-    console.log(widthScreen);
 
     if (widthScreen > 1100 ) {
         colOfslides = 4
@@ -77,21 +77,15 @@ window.addEventListener('DOMContentLoaded', () => {
         colOfslides = 2
     }
 
-    /* slider products */
     var mySwiper = new Swiper ('.swiper-container-products', {
         loop: true,
         slidesPerView: colOfslides,
         spaceBetween: 10,
 
-        
-
         navigation: {
           nextEl: '.products-button-next',
           prevEl: '.products-button-prev',
         },
-
       })
-
-      
 
 });
