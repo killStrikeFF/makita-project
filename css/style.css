@@ -369,12 +369,16 @@ main {
 }
 .main-form form input {
   margin: 10px 0px;
-  width: 450px;
+  width: 50%;
   border-radius: 5px;
 }
 .main-form form textarea {
-  width: 450px;
+  width: 50%;
   border-radius: 5px;
+}
+.main-form form button {
+  margin-top: 10px;
+  width: 50%;
 }
 .main-yandex {
   margin-top: 10px;
